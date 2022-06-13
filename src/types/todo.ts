@@ -5,6 +5,7 @@ export interface TodoState{
       error: null | string;
       page: number;
       limit: number;
+      // total: number;
 }
 
 export enum TodoActionTypes{

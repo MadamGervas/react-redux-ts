@@ -13,6 +13,7 @@ export const fetchTodos = (page = 1, limit = 10) => {
                     _limit: limit,
                 }
             })
+            console.log(response)
             setTimeout(() => {
                 dispatch({
                     type: TodoActionTypes.FETCH_TODOS_SUCCESS,

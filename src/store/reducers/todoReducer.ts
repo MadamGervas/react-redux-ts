@@ -6,6 +6,7 @@ const initialState: TodoState = {
     error: null,
     page: 1,
     limit: 10,
+    // total: number,
 }
 
 export const todoReducer = (state = initialState, action : TodoAction) : TodoState  => {
